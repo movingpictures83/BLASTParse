@@ -22,7 +22,7 @@ void BLASTParsePlugin::output(std::string file) {
    std::string command = "export OLDPATH=${PYTHONPATH}; ";
    command += "export PYTHONPATH=/usr/local/lib64/python3.9/site-packages/:${PYTHONPATH}; ";
    command += "python3.9 plugins/BLASTParse/runBLASTParse.py ";
-   command += PluginManager::addPrefix(parameters["sqldatabase"]) + " ";
+   command += parameters["sqldatabase"] + " ";
    command += PluginManager::addPrefix(parameters["blastdatabase"]) + " ";
    command += parameters["pdbinput"] + " ";
    command += parameters["taxidfilter"] + " ";

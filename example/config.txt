@@ -1,0 +1,2 @@
+Prefix plugins/BLASTParse/example/
+Plugin BLASTParse inputfile parameters.txt outputfile EPI_SEQ_hits

@@ -100,6 +100,7 @@ class HitsDataContainer(list):
                 )
 
         with open(file_path, "a") as output_handle:
+            print(SQLITE_DATABASE_DIR)
             con = sqlite3.connect(SQLITE_DATABASE_DIR)
             cur = con.cursor()
             for hit in self:

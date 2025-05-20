@@ -1,0 +1,8 @@
+sqldatabase	/biorg/data/DB/Epitopedia/epitopedia.sqlite3
+blastdatabase	EPI_SEQ.fasta
+pdbinput	6VXX_A
+taxidfilter	11118
+seqres	query_pdb_seq.seqres.txt
+rasa	query_pdb_seq.rasa.txt
+seqnums	query_pdb_seq.seqnums.txt
+seqsolv	query_pdb_seq.seqsolv.txt
